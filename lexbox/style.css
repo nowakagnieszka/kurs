@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+  height: 500px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellow;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.square {
+  background-color: red;
+  font-size: 34px;
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+}
